@@ -13,16 +13,15 @@ npm install --save r-restyled-components
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'r-restyled-components'
-import 'r-restyled-components/dist/index.css'
+import { StyledButton } from 'r-restyled-components'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return <StyledButton>Submit</StyledButton>
 }
+
+export default App
 ```
 
 ## License

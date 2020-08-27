@@ -1,4 +1,7 @@
-import React from 'react'
-import styles from './styles.module.css'
-
+export { default as FlexWrapper } from './components/FlexWrapper'
+export { default as SizedBox } from './components/SizedBox'
+export { default as StyledText } from './components/StyledText'
 export { default as StyledButton } from './components/StyledButton'
+export { default as StyledImage } from './components/StyledImage'
+export { default as Row } from './components/Row'
+export { default as Column } from './components/Column'

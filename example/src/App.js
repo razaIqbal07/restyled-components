@@ -1,10 +1,13 @@
 import React from 'react'
 
-import { StyledButton } from 'r-restyled-components'
-import 'r-restyled-components/dist/index.css'
+import { StyledButton, FlexWrapper } from 'r-restyled-components'
 
 const App = () => {
-  return <StyledButton>Submit</StyledButton>
+  return (
+    <FlexWrapper>
+      <StyledButton>Submit</StyledButton>
+    </FlexWrapper>
+  )
 }
 
 export default App
