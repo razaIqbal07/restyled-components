@@ -11,6 +11,7 @@ const StyledInput = styled.input(
    user-select : ${props.userSelect ? props.userSelect : 'auto'};
    border : ${props.border ? props.border : 'none'};
    outline : ${props.outline ? props.outline : 'none'};
+   border-radius : ${props.borderRadius ? props.borderRadius : 'none'};
   `
 )
 
