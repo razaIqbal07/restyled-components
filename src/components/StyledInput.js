@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const StyledLink = styled.a(
+const StyledInput = styled.input(
   (props) => `
    font-size : ${props.fontSize ? props.fontSize : '12px'};
    font-weight : ${props.fontWeight ? props.fontWeight : '500'};
@@ -9,8 +9,9 @@ const StyledLink = styled.a(
    margin : ${props.margin ? props.margin : 'none'};
    padding : ${props.padding ? props.padding : 'none'};
    user-select : ${props.userSelect ? props.userSelect : 'auto'};
-   text-decoration :  ${props.textDecoration ? props.textDecoration : 'none'};
+   border : ${props.border ? props.border : 'none'};
+   outline : ${props.outline ? props.outline : 'none'};
   `
 )
 
-export default StyledLink
+export default StyledInput
