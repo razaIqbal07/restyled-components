@@ -1,4 +1,4 @@
-# r-restyled-components
+# restyled-components
 
 > predefined styled-components to be used in React-app
 
