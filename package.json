@@ -1,10 +1,10 @@
 {
-  "name": "r-restyled-components",
-  "version": "1.0.0",
+  "name": "restyled-components",
+  "version": "1.0.1",
   "description": "predefined styled-components to be used in React-app",
   "author": "https://github.com/razaIqbal07",
   "license": "MIT",
-  "repository": "https://github.com/razaIqbal07/r-restyled-components",
+  "repository": "https://github.com/razaIqbal07/restyled-components",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
