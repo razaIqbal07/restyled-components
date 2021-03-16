@@ -3,6 +3,7 @@ import styled from 'styled-components'
 const FlexWrapper = styled.div(
   (props) => `
     display: flex;
+    flex : ${props.flex ? props.flex : 'none'},
     flex-direction : ${props.flexDirection ? props.flexDirection : 'row'};
     justify-content: ${
       props.justifyContent ? props.justifyContent : 'flex-start'
