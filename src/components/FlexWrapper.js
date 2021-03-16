@@ -32,7 +32,8 @@ const FlexWrapper = styled.div(
     overflow: ${props.overflow ? props.overflow : 'none'};
     overflow-x: ${props.overflowX ? props.overflowX : 'none'};
     overflow-y: ${props.overflowY ? props.overflowY : 'none'};
-    box-sizing : ${props.boxSizing ? props.boxSizing : 'content-box'};
+    box-sizing : ${props.boxSizing ? props.boxSizing : 'border-box'};
+    cursor : ${props.cursor ? props.cursor : ''};
   `
 )
 
