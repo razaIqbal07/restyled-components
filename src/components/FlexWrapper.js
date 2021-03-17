@@ -13,6 +13,7 @@ const FlexWrapper = styled.div(
     min-width: ${props.minWidth ? props.minWidth : 'auto'};
     min-height: ${props.minHeight ? props.minHeight : 'auto'};
     background: ${props.background ? props.background : 'none'};
+    background-color: ${props.backgroundColor ? props.backgroundColor : 'none'};
     color :  ${props.color ? props.color : 'none'};
     border : ${props.border ? props.border : 'none'};
     border-bottom : ${props.borderBottom ? props.borderBottom : ''};

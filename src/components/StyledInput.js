@@ -26,7 +26,9 @@ const StyledInput = styled.input(
    border-right : ${props.borderRight ? props.borderRight : 'none'};
    outline : ${props.outline ? props.outline : 'none'};
    border-radius : ${props.borderRadius ? props.borderRadius : 'none'};
-   flex : ${props.flex ? props.flex : 'none'}
+   flex : ${props.flex ? props.flex : 'none'};
+   background-color: ${props.backgroundColor ? props.backgroundColor : 'none'};
+   background: ${props.background ? props.background : 'none'};
   `
 )
 
