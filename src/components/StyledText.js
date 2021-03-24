@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const StyledText = styled.text(
+const StyledText = styled.p(
   (props) => `
    font-size : ${props.fontSize ? props.fontSize : '12px'};
    font-weight : ${props.fontWeight ? props.fontWeight : '500'};
