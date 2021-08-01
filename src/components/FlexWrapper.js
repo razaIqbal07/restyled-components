@@ -52,7 +52,6 @@ const FlexWrapper = styled.div(
     &:hover {
       background : ${(props.hover && props.hover.background) || ''}
     }
-    
   `
 )
 
