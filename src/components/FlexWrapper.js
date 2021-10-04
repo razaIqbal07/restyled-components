@@ -48,6 +48,7 @@ const FlexWrapper = styled.div(
     left : ${props.left ? props.left : '1'};
     right : ${props.right ? props.right : '1'};
     box-shadow: ${props.boxShadow || ''};
+opacity: ${props.opacity || 1};
     ${[props.css || '']};
     &:hover {
       background : ${(props.hover && props.hover.background) || ''}
